@@ -1,5 +1,5 @@
 {% set name = "freetype-py" %}
-{% set version = "2.0.0.post6" %}
+{% set version = "2.1.0.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 23c9dcd9c1797507b0e083c18848d476c72128137ca485665d149ce231001069
+  sha256: 76383bb3e59efa6ce0be1797ed70207d7d1e421611df3aceb269673c4a77c2cc
 
 build:
   noarch: python
-  number: 1
+  number: 0
   # Note: --no-deps is currently required due to https://github.com/conda/conda-build/issues/3254
   # Once resolved, it should be removed.
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
@@ -23,7 +23,7 @@ requirements:
     - setuptools_scm
   run:
     - python
-    - freetype <2.10
+    - freetype
 
 test:
   imports:
