@@ -1,5 +1,5 @@
 {% set name = "freetype-py" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: cf43716bc5246cd54a64b2238b942e8dc80b79eda92f814c720286fa6fab387a
+  sha256: f9b64ce3272a5c358dcee824800a32d70997fb872a0965a557adca20fce7a5d0
 
 build:
   noarch: python
