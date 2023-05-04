@@ -1,11 +1,11 @@
-About freetype-py
-=================
+About freetype-py-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/freetype-py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rougier/freetype-py
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/freetype-py-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python binding for the freetype library
 
